@@ -12,8 +12,8 @@ function App() {
     console.log("新しくノートが追加されました。");
     const newNote = {
       id: uuid(),
-      title: "新しいノート",
-      content: "新しいノートの内容",
+      title: "",
+      content: "",
       modDate: Date.now(),
     };
     setNotes([...notes, newNote]);
